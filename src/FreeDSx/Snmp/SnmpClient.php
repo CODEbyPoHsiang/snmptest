@@ -41,7 +41,7 @@ class SnmpClient
         'community' => 'public',
         'udp_retry' => 5,
         'timeout_connect' => 5,
-        'timeout_read' => 10,
+        'timeout_read' => 2,
         'version' => 2,
         'security_model' => 'usm',
         'engine_id' => null,
