@@ -1,31 +1,29 @@
 {
-    "name": "codebypohsiang/snmptest",
-    "description": "snmptest",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "CODEbyPoHsiang",
-            "email": "0939cool@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {
-      "php": ">=7.1",
-      "freedsx/asn1": "^0.4.0",
-      "freedsx/socket": "^0.3.0"
-    },
-    "require-dev": {
-      "phpspec/phpspec": "^5.0",
-      "friendsofphp/php-cs-fixer": "^2.0.0",
-      "phpstan/phpstan": "^0.11.5",
-      "phpstan/phpstan-strict-rules": "^0.11.0"
-    },
-    "suggest": {
-      "ext-openssl": "For SNMP privacy encryption support.",
-      "ext-gmp": "Needed for counter64 bigint SNMP values."
-    },
-    "autoload": {
-      "psr-4": {"FreeDSx\\Snmp\\": "src/FreeDSx/Snmp"}
-    }
+  "name": "codebypohsiang/snmptest",
+  "description": "snmptest",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "CODEbyPoHsiang",
+          "email": "0939cool@gmail.com"
+      }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.1",
+    "freedsx/asn1": "^0.4.0",
+    "freedsx/socket": "^0.3.0"
+  },
+  "require-dev": {
+    "phpspec/phpspec": "^5.0",
+    "friendsofphp/php-cs-fixer": "^2.0.0",
+    "phpstan/phpstan": "^0.11.5",
+    "phpstan/phpstan-strict-rules": "^0.11.0"
+  },
+"autoload": {
+  "psr-4": {
+    "FreeDSx\\Snmp\\": "src/FreeDSx/Snmp"
+  }
+}
 }
